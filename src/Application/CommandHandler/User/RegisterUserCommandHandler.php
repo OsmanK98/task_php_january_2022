@@ -11,11 +11,11 @@ use App\Entity\User;
 
 class RegisterUserCommandHandler implements CommandHandlerInterface
 {
-    public function __construct(private UserPasswordHasherInterface $passwordHasher,
-                                private ValidatorObjectService      $validator,
-                                private UserRepository              $userRepository)
-
-    {
+    public function __construct(
+        private UserPasswordHasherInterface $passwordHasher,
+        private ValidatorObjectService $validator,
+        private UserRepository $userRepository
+    ) {
     }
 
     public function __invoke(RegisterUserCommand $command)

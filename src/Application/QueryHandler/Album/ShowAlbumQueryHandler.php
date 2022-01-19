@@ -12,7 +12,6 @@ class ShowAlbumQueryHandler implements QueryHandlerInterface
 {
     public function __construct(private AlbumRepository $albumRepository)
     {
-
     }
 
     public function __invoke(ShowAlbumQuery $query): Album

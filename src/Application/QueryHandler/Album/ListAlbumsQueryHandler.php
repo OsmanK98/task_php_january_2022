@@ -10,7 +10,6 @@ class ListAlbumsQueryHandler implements QueryHandlerInterface
 {
     public function __construct(private AlbumRepository $albumRepository)
     {
-
     }
 
     public function __invoke(ListAlbumsQuery $query): array

@@ -10,10 +10,8 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class DeleteAlbumCommandHandler implements CommandHandlerInterface
 {
-    public function __construct(private AlbumRepository $albumRepository
-    )
+    public function __construct(private AlbumRepository $albumRepository)
     {
-
     }
 
     public function __invoke(DeleteAlbumCommand $command)

@@ -28,15 +28,14 @@ class UpdateAlbumCommand
     private ?int $bandId;
 
 
-    public function __construct(?int          $albumId,
-                                ?string       $title,
-                                ?UploadedFile $cover,
-                                ?string       $year,
-                                ?bool         $isPromoted,
-                                ?int          $bandId
-
-    )
-    {
+    public function __construct(
+        ?int $albumId,
+        ?string $title,
+        ?UploadedFile $cover,
+        ?string $year,
+        ?bool $isPromoted,
+        ?int $bandId
+    ) {
         $this->albumId = $albumId;
         $this->title = $title;
         $this->cover = $cover;

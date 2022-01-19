@@ -20,12 +20,12 @@ use Symfony\Component\Serializer\SerializerInterface;
 #[Route('/api')]
 class BandController extends AbstractController
 {
-    public function __construct(private MessageBusInterface    $commandBus,
-                                private MessageBusInterface    $queryBus,
-                                private SerializerInterface    $serializer,
-                                private ValidatorObjectService $validator)
-    {
-
+    public function __construct(
+        private MessageBusInterface $commandBus,
+        private MessageBusInterface $queryBus,
+        private SerializerInterface $serializer,
+        private ValidatorObjectService $validator
+    ) {
     }
 
     #[Route('/bands', name: 'create_band', methods: 'POST')]
@@ -38,7 +38,7 @@ class BandController extends AbstractController
             $this->commandBus->dispatch($createBandCommand);
 
             return new Response(null, Response::HTTP_CREATED);
-        } catch (HandlerFailedException|\Exception $e) {
+        } catch (HandlerFailedException | \Exception $e) {
             $message = HandlerExceptionService::getMessage($e);
             return new Response($message, Response::HTTP_BAD_REQUEST);
         }
@@ -59,7 +59,7 @@ class BandController extends AbstractController
             );
 
             return new Response($bandJson, Response::HTTP_OK);
-        } catch (HandlerFailedException|\Exception $e) {
+        } catch (HandlerFailedException | \Exception $e) {
             $message = HandlerExceptionService::getMessage($e);
             return new Response($message, Response::HTTP_BAD_REQUEST);
         }
@@ -76,7 +76,7 @@ class BandController extends AbstractController
             $this->commandBus->dispatch($updateBandCommand);
 
             return new Response(null, Response::HTTP_ACCEPTED);
-        } catch (HandlerFailedException|\Exception $e) {
+        } catch (HandlerFailedException | \Exception $e) {
             $message = HandlerExceptionService::getMessage($e);
             return new Response($message, Response::HTTP_BAD_REQUEST);
         }
@@ -91,7 +91,7 @@ class BandController extends AbstractController
             $this->commandBus->dispatch($deleteBandCommand);
 
             return new Response(null, Response::HTTP_NO_CONTENT);
-        } catch (HandlerFailedException|\Exception $e) {
+        } catch (HandlerFailedException | \Exception $e) {
             $message = HandlerExceptionService::getMessage($e);
             return new Response($message, Response::HTTP_BAD_REQUEST);
         }

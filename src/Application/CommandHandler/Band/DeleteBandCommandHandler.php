@@ -12,7 +12,6 @@ class DeleteBandCommandHandler implements CommandHandlerInterface
 {
     public function __construct(private BandRepository $bandRepository)
     {
-
     }
 
     public function __invoke(DeleteBandCommand $command)

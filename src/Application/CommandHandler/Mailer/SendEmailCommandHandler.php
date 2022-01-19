@@ -10,9 +10,10 @@ use Symfony\Component\Mime\Email;
 
 class SendEmailCommandHandler implements CommandHandlerInterface
 {
-    public function __construct(private MailerInterface    $mailer,
-                                private ContainerInterface $container)
-    {
+    public function __construct(
+        private MailerInterface $mailer,
+        private ContainerInterface $container
+    ) {
     }
 
     public function __invoke(SendEmailCommand $command)
@@ -25,7 +26,7 @@ class SendEmailCommandHandler implements CommandHandlerInterface
         try {
             $this->mailer->send($email);
         } catch (\Exception) {
-           throw new \Exception('Problem with send email action, check you SMTP configuration!');
+            throw new \Exception('Problem with send email action, check you SMTP configuration!');
         }
     }
 }

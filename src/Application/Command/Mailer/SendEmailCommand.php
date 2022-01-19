@@ -4,10 +4,11 @@ namespace App\Application\Command\Mailer;
 
 class SendEmailCommand
 {
-    public function __construct(private string $title,
-                                private string $description,
-                                private string $email)
-    {
+    public function __construct(
+        private string $title,
+        private string $description,
+        private string $email
+    ) {
     }
 
     public function getTitle(): string

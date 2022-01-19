@@ -12,7 +12,6 @@ class ShowBandQueryHandler implements QueryHandlerInterface
 {
     public function __construct(private BandRepository $bandRepository)
     {
-
     }
 
     public function __invoke(ShowBandQuery $query): Band

@@ -24,12 +24,13 @@ class CreateAlbumCommand
     #[Assert\NotBlank(message: 'The band ID field cannot be empty!')]
     private ?int $bandId;
 
-    public function __construct(?string       $title,
-                                ?UploadedFile $cover,
-                                ?string       $year,
-                                ?bool         $isPromoted,
-                                ?int          $bandId)
-    {
+    public function __construct(
+        ?string $title,
+        ?UploadedFile $cover,
+        ?string $year,
+        ?bool $isPromoted,
+        ?int $bandId
+    ) {
         $this->title = $title;
         $this->cover = $cover;
         $this->year = $year;

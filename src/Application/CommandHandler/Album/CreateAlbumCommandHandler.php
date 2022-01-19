@@ -16,14 +16,14 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class CreateAlbumCommandHandler implements CommandHandlerInterface
 {
-    public function __construct(private AlbumRepository        $albumRepository,
-                                private BandRepository         $bandRepository,
-                                private UploadFileService      $uploadFileService,
-                                private ValidatorObjectService $validator,
-                                private MailerService          $mailerService,
-                                private ContainerInterface     $container)
-    {
-
+    public function __construct(
+        private AlbumRepository $albumRepository,
+        private BandRepository $bandRepository,
+        private UploadFileService $uploadFileService,
+        private ValidatorObjectService $validator,
+        private MailerService $mailerService,
+        private ContainerInterface $container
+    ) {
     }
 
     public function __invoke(CreateAlbumCommand $command)

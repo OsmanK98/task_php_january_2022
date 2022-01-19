@@ -2,7 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96b3a34e-105b-4ff5-972c-e0a736b16df1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0274cf12-1009-40ec-8f72-8b4e03920b17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0274cf12-1009-40ec-8f72-8b4e03920b17/storage_v2/_src_/database/app_test_test.gcNVQg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0274cf12-1009-40ec-8f72-8b4e03920b17/storage_v2/_src_/database/app_test_test.gcNVQg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0274cf12-1009-40ec-8f72-8b4e03920b17/storage_v2/_src_/database/app_test_test.gcNVQg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0274cf12-1009-40ec-8f72-8b4e03920b17/storage_v2/_src_/database/app_test_test.gcNVQg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/97398f9e-201e-4549-87a1-9111b5f56a64.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/97398f9e-201e-4549-87a1-9111b5f56a64/storage_v2/_src_/database/app.IXoBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/97398f9e-201e-4549-87a1-9111b5f56a64/storage_v2/_src_/database/app.IXoBAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/97398f9e-201e-4549-87a1-9111b5f56a64/storage_v2/_src_/database/app.IXoBAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/97398f9e-201e-4549-87a1-9111b5f56a64/storage_v2/_src_/database/app.IXoBAA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d60751cc-f4b1-4698-8b82-3c50f9015275.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d60751cc-f4b1-4698-8b82-3c50f9015275/storage_v2/_src_/database/app_test.8K-bRQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d60751cc-f4b1-4698-8b82-3c50f9015275/storage_v2/_src_/database/app_test.8K-bRQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d60751cc-f4b1-4698-8b82-3c50f9015275/storage_v2/_src_/database/app_test.8K-bRQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d60751cc-f4b1-4698-8b82-3c50f9015275/storage_v2/_src_/database/app_test.8K-bRQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/febf3035-b997-4a41-85aa-4d8b5b866db6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/febf3035-b997-4a41-85aa-4d8b5b866db6/storage_v2/_src_/database/app_test.8K-bRQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/febf3035-b997-4a41-85aa-4d8b5b866db6/storage_v2/_src_/database/app_test.8K-bRQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/febf3035-b997-4a41-85aa-4d8b5b866db6/storage_v2/_src_/database/app_test.8K-bRQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/febf3035-b997-4a41-85aa-4d8b5b866db6/storage_v2/_src_/database/app_test.8K-bRQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/task_php_january_2022.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/task_php_january_2022.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Command/Album/CreateAlbumCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Command/Album/CreateAlbumCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Command/Album/UpdateAlbumCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Command/Album/UpdateAlbumCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Command/Band/UpdateBandCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Command/Band/UpdateBandCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Command/Mailer/SendEmailCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Command/Mailer/SendEmailCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Command/Track/CreateTrackCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Command/Track/CreateTrackCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Command/Track/UpdateTrackCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Command/Track/UpdateTrackCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/Command/User/RegisterUserCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Command/User/RegisterUserCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/CommandHandler/Album/CreateAlbumCommandHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/CommandHandler/Album/CreateAlbumCommandHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/CommandHandler/Album/DeleteAlbumCommandHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/CommandHandler/Album/DeleteAlbumCommandHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/CommandHandler/Album/UpdateAlbumCommandHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/CommandHandler/Album/UpdateAlbumCommandHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/CommandHandler/Band/CreateBandCommandHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/CommandHandler/Band/CreateBandCommandHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/CommandHandler/Band/DeleteBandCommandHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/CommandHandler/Band/DeleteBandCommandHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/CommandHandler/Band/UpdateBandCommandHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/CommandHandler/Band/UpdateBandCommandHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/CommandHandler/CommandHandlerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/CommandHandler/CommandHandlerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/CommandHandler/Mailer/SendEmailCommandHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/CommandHandler/Mailer/SendEmailCommandHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/CommandHandler/Track/CreateTrackCommandHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/CommandHandler/Track/CreateTrackCommandHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/CommandHandler/Track/UpdateTrackCommandHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/CommandHandler/Track/UpdateTrackCommandHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/CommandHandler/User/RegisterUserCommandHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/CommandHandler/User/RegisterUserCommandHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/QueryHandler/Album/ListAlbumsQueryHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/QueryHandler/Album/ListAlbumsQueryHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/QueryHandler/Album/ShowAlbumQueryHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/QueryHandler/Album/ShowAlbumQueryHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/QueryHandler/Band/ShowBandQueryHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/QueryHandler/Band/ShowBandQueryHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application/QueryHandler/QueryHandlerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/QueryHandler/QueryHandlerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AlbumController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AlbumController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BandController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/TrackController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TrackController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/HandlerExceptionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/HandlerExceptionService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/MailerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/MailerService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/RemoveFileService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/RemoveFileService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/UploadFileService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/UploadFileService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ValidatorObjectService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ValidatorObjectService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +221,7 @@
       <path value="$PROJECT_DIR$/vendor/dama/doctrine-test-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
     </include_path>
   </component>
   <component name="ProjectId" id="23kDVbWBDJdrnDXibtaKqwFOEO7" />
@@ -178,7 +235,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/DataFixtures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -216,7 +273,9 @@
       <workItem from="1642350101160" duration="1158000" />
       <workItem from="1642412299417" duration="2000" />
       <workItem from="1642420428526" duration="20108000" />
-      <workItem from="1642444325632" duration="7708000" />
+      <workItem from="1642444325632" duration="7763000" />
+      <workItem from="1642493064163" duration="604000" />
+      <workItem from="1642595278457" duration="1772000" />
     </task>
     <servers />
   </component>

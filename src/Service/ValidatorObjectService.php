@@ -9,15 +9,14 @@ class ValidatorObjectService
 {
     public function __construct(private ValidatorInterface $validator)
     {
-
     }
 
-    public function validate(Object $object)
+    public function validate(object $object)
     {
          $errors = $this->validator->validate($object);
         if (count($errors) > 0) {
             $violations = [];
-            foreach($errors as $error){
+            foreach ($errors as $error) {
                 $violations[] = $error->getMessage();
             }
             throw AssertException::createMessage(json_encode($violations));

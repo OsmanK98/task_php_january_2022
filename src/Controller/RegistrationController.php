@@ -15,9 +15,10 @@ use Symfony\Component\Routing\Annotation\Route;
 #[Route('/api')]
 class RegistrationController extends AbstractController
 {
-    public function __construct(private MessageBusInterface    $commandBus,
-                                private ValidatorObjectService $validator)
-    {
+    public function __construct(
+        private MessageBusInterface $commandBus,
+        private ValidatorObjectService $validator
+    ) {
     }
 
     #[Route('/registration', name: 'registration', methods: 'POST')]
@@ -35,7 +36,7 @@ class RegistrationController extends AbstractController
             $this->commandBus->dispatch($registerUserCommand);
 
             return new Response(null, Response::HTTP_CREATED);
-        } catch (HandlerFailedException|\Exception $e) {
+        } catch (HandlerFailedException | \Exception $e) {
             $message = HandlerExceptionService::getMessage($e);
             return new Response($message, Response::HTTP_BAD_REQUEST);
         }

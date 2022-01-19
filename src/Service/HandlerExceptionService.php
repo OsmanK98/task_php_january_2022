@@ -6,7 +6,7 @@ use Symfony\Component\Messenger\Exception\HandlerFailedException;
 
 class HandlerExceptionService
 {
-    static public function getMessage($e)
+    public static function getMessage($e)
     {
         while ($e instanceof HandlerFailedException) {
             $e = $e->getPrevious();

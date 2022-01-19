@@ -4,5 +4,4 @@ namespace App\Application\QueryHandler;
 
 interface QueryHandlerInterface
 {
-
 }

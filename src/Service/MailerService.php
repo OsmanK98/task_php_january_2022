@@ -13,8 +13,7 @@ class MailerService
 
     public function send(string $title, string $content, array $recipients = [])
     {
-        foreach($recipients as $recipient)
-        {
+        foreach ($recipients as $recipient) {
             $sendEmailCommand = new SendEmailCommand(
                 $title,
                 $content,

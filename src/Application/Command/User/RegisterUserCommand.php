@@ -14,9 +14,10 @@ class RegisterUserCommand
     #[Assert\Length(min: 8, minMessage: 'The password must be at least 8 characters!')]
     private ?string $password;
 
-    public function __construct(?string $email,
-                                ?string $password)
-    {
+    public function __construct(
+        ?string $email,
+        ?string $password
+    ) {
         $this->email = $email;
         $this->password = $password;
     }

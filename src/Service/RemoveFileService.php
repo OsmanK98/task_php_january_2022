@@ -7,9 +7,10 @@ use Symfony\Component\Filesystem\Filesystem;
 
 class RemoveFileService
 {
-    public function __construct(private Filesystem $filesystem,
-                                private $mediaObjectPath)
-    {
+    public function __construct(
+        private Filesystem $filesystem,
+        private $mediaObjectPath
+    ) {
     }
 
     public function remove(string $file)

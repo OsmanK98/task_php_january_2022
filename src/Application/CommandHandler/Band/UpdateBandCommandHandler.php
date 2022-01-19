@@ -11,10 +11,10 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class UpdateBandCommandHandler implements CommandHandlerInterface
 {
-    public function __construct(private BandRepository         $bandRepository,
-                                private ValidatorObjectService $validator)
-    {
-
+    public function __construct(
+        private BandRepository $bandRepository,
+        private ValidatorObjectService $validator
+    ) {
     }
 
     public function __invoke(UpdateBandCommand $command)

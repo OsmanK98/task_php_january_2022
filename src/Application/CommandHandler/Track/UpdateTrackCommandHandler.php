@@ -13,11 +13,11 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class UpdateTrackCommandHandler implements CommandHandlerInterface
 {
-    public function __construct(private TrackRepository        $trackRepository,
-                                private AlbumRepository        $albumRepository,
-                                private ValidatorObjectService $validator)
-    {
-
+    public function __construct(
+        private TrackRepository $trackRepository,
+        private AlbumRepository $albumRepository,
+        private ValidatorObjectService $validator
+    ) {
     }
 
     public function __invoke(UpdateTrackCommand $command)

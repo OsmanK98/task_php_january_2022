@@ -17,11 +17,11 @@ class CreateTrackCommand
     #[Assert\NotBlank(message: 'The album ID field cannot be empty!')]
     private ?int $albumId;
 
-    public function __construct(?string $title,
-                                ?string $url,
-                                ?int    $albumId
-    )
-    {
+    public function __construct(
+        ?string $title,
+        ?string $url,
+        ?int $albumId
+    ) {
         $this->title = $title;
         $this->url = $url;
         $this->albumId = $albumId;

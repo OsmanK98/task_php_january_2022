@@ -20,12 +20,12 @@ use Symfony\Component\Serializer\SerializerInterface;
 #[Route('/api')]
 class TrackController extends AbstractController
 {
-    public function __construct(private MessageBusInterface    $commandBus,
-                                private MessageBusInterface    $queryBus,
-                                private SerializerInterface    $serializer,
-                                private ValidatorObjectService $validator)
-    {
-
+    public function __construct(
+        private MessageBusInterface $commandBus,
+        private MessageBusInterface $queryBus,
+        private SerializerInterface $serializer,
+        private ValidatorObjectService $validator
+    ) {
     }
 
     #[Route('/tracks', name: 'create_track', methods: 'POST')]
@@ -45,7 +45,7 @@ class TrackController extends AbstractController
             $this->commandBus->dispatch($createTrackCommand);
 
             return new Response(null, Response::HTTP_CREATED);
-        } catch (HandlerFailedException|\Exception $e) {
+        } catch (HandlerFailedException | \Exception $e) {
             $message = HandlerExceptionService::getMessage($e);
             return new Response($message, Response::HTTP_BAD_REQUEST);
         }
@@ -66,7 +66,7 @@ class TrackController extends AbstractController
             );
 
             return new Response($tracksJson, Response::HTTP_OK);
-        } catch (HandlerFailedException|\Exception $e) {
+        } catch (HandlerFailedException | \Exception $e) {
             $message = HandlerExceptionService::getMessage($e);
             return new Response($message, Response::HTTP_BAD_REQUEST);
         }
@@ -90,7 +90,7 @@ class TrackController extends AbstractController
             $this->commandBus->dispatch($updateTrackCommand);
 
             return new Response(null, Response::HTTP_ACCEPTED);
-        } catch (HandlerFailedException|\Exception $e) {
+        } catch (HandlerFailedException | \Exception $e) {
             $message = HandlerExceptionService::getMessage($e);
             return new Response($message, Response::HTTP_BAD_REQUEST);
         }
@@ -105,7 +105,7 @@ class TrackController extends AbstractController
             $this->commandBus->dispatch($deleteTrackCommand);
 
             return new Response(null, Response::HTTP_NO_CONTENT);
-        } catch (HandlerFailedException|\Exception $e) {
+        } catch (HandlerFailedException | \Exception $e) {
             $message = HandlerExceptionService::getMessage($e);
             return new Response($message, Response::HTTP_BAD_REQUEST);
         }

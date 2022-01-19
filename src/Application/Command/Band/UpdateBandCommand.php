@@ -13,9 +13,10 @@ class UpdateBandCommand
     #[Assert\Length(max: 255, maxMessage: "The name is too long!")]
     private ?string $name;
 
-    public function __construct(?int    $bandId,
-                                ?string $name)
-    {
+    public function __construct(
+        ?int $bandId,
+        ?string $name
+    ) {
         $this->bandId = $bandId;
         $this->name = $name;
     }
